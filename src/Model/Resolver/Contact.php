@@ -106,7 +106,7 @@ class Contact implements ResolverInterface
             throw new LocalizedException(__('Enter the comment and try again.'));
         }
 
-        if (false === strpos($data['email'], '@')) {
+        if (false === filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
             throw new LocalizedException(__('The email address is invalid. Verify the email address and try again.'));
         }
 
