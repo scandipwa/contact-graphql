@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "name": "scandipwa/contact-graphql",
+    "description": "Contact-specific modifications for ScandiPWA",
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-contact": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\ContactGraphQl\\": "src/"
+        }
+    }
+}
