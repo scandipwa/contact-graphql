@@ -1,5 +1,4 @@
 {
-    "version": "1.0.0",
     "name": "scandipwa/contact-graphql",
     "description": "Contact-specific modifications for ScandiPWA",
     "type": "magento2-theme",
